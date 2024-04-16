@@ -19,14 +19,15 @@
 
 <body>
   <header class="header">
-    <img class="logo" src="img/omnifood-logo.png" alt="logo of the company" />
+    <a href="#"><img class="logo" src="img/omnifood-logo.png" alt="logo of the company" />
+    </a>
     <nav class="main-nav">
       <ul class="main-nav-list">
-        <li><a class="main-nav-link" href="#">secction1</a></li>
-        <li><a class="main-nav-link" href="#">secction2</a></li>
-        <li><a class="main-nav-link" href="#">secction3</a></li>
-        <li><a class="main-nav-link" href="#">secction4</a></li>
-        <li><a class="main-nav-link nav-cta" href="#">secction5</a></li>
+        <li><a class="main-nav-link" href="#">How it works</a></li>
+        <li><a class="main-nav-link" href="#">Meals</a></li>
+        <li><a class="main-nav-link" href="#">Testimonials</a></li>
+        <li><a class="main-nav-link" href="#">Pricing</a></li>
+        <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
       </ul>
     </nav>
   </header>
@@ -438,10 +439,7 @@
                 <label for="first-name">First Name</label>
                 <input id="first-name" type="text" placeholder="First Name" required />
               </div>
-              <div>
-                <label for="last-name">Last Name</labelfor>
-                  <input id="last-name" type="text" placeholder="Last Name" required />
-              </div>
+
               <div>
                 <label for="email-address">Email Address</label>
                 <input id="email-address" type="email" placeholder="email@address.com" required />
@@ -449,7 +447,7 @@
               <div>
                 <label for="select-where">Where did you hear about us?</label>
                 <select id="select-where" required>
-                  <option value="">Please choose on of the following:</option>
+                  <option value="">Choose one of the option:</option>
                   <option value="friends">Friends</option>
                   <option value="youtube">Youtube</option>
                   <option value="podcast">Podcast</option>
@@ -457,7 +455,7 @@
                   <option value="others">Others</option>
                 </select>
               </div>
-              <button class="btn" type="submit">Sign up now</button>
+              <button class="btn-form" type="submit">Sign up now</button>
             </form>
           </div>
           <div class="cta-img-box" role="img" aria-label="woman enjoyinhg food">
@@ -467,6 +465,73 @@
 
     </section>
   </main>
+  <footer class="footer">
+
+    <div class="container grid grid--5-cols">
+      <div class="logo-col">
+        <a href="#" class="footer-logo">
+          <img class="logo" src="img/omnifood-logo.png" alt="logo of the company" />
+        </a>
+        <ul class="social-links-header">
+          <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+          <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+          <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2024 by Hassan inc. All rights reserved</p>
+      </div>
+
+
+      <div class="address-col">
+        <p class="footer-heading">Contact us.</p>
+        <address class="contacts">
+          <p class="address">
+            623 Harrison St., 2nd Floor, San Francisco, CA 94107
+          </p>
+          <p class="address">
+            <a class="footer-link" href="tel:415-000-0000">415-000-0000</a>
+            <a class="footer-link" href="mailto:hello@omnifood.com">hello@omnifood.com</a>
+          </p>
+        </address>
+      </div>
+
+      <nav class="nav-col">
+        <p class="footer-heading">
+          Account
+        </p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Create Account</a></li>
+          <li><a class="footer-link" href="#">Sign up</a></li>
+          <li><a class="footer-link" href="#">Android App</a></li>
+          <li><a class="footer-link" href="#">IOS App</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-col">
+        <p class="footer-heading">
+          Company
+        </p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">About Omnifood</a></li>
+          <li><a class="footer-link" href="#">For Business</a></li>
+          <li><a class="footer-link" href="#">Cooking Partners</a></li>
+          <li><a class="footer-link" href="#">Careers</a></li>
+
+        </ul>
+      </nav>
+
+      <nav class="nav-col">
+        <p class="footer-heading">
+          Resources
+        </p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Recipe directory</a></li>
+          <li><a class="footer-link" href="#">Help center</a></li>
+          <li><a class="footer-link" href="#">Privacy & terms</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </footer>
 </body>
 
 </html>
